@@ -1,4 +1,8 @@
+import { clear } from "./clearpage";
+
 export function createHomePage() {
+  clear();
+
   const content = document.getElementById("content");
 
   const heading = document.createElement("h1");

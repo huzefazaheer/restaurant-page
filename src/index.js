@@ -9,3 +9,5 @@ const btn_location = document.querySelector("#location");
 btn_home.addEventListener("click", createHomePage);
 btn_menu.addEventListener("click", createMenuPage);
 btn_location.addEventListener("click", createLocationPage);
+
+createHomePage();

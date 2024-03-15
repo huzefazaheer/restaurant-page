@@ -1,4 +1,8 @@
+import { clear } from "./clearpage";
+
 export function createMenuPage() {
+  clear();
+
   const content = document.getElementById("content");
 
   const heading = document.createElement("h1");
