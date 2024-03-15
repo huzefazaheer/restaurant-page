@@ -10,18 +10,15 @@ export function createMenuPage() {
   heading.id = "content";
   heading.innerText = "Menu";
 
-  const detail = document.createElement("p");
+  const menu1 = document.createElement("p");
+  menu1.className = "info";
+  menu1.innerText = `One potato two potato`;
 
-  detail.className = "info";
-  detail.innerText = `One potato two potato`;
-
-  const rights = document.createElement("p");
-  const italics = document.createElement("em");
-
-  italics.innerText = "get it all";
+  const menu2 = document.createElement("p");
+  menu2.className = "info";
+  menu2.innerText = `Two potato one potato`;
 
   content.appendChild(heading);
-  content.appendChild(detail);
-  content.appendChild(rights);
-  rights.appendChild(italics);
+  content.appendChild(menu1);
+  content.appendChild(menu2);
 }

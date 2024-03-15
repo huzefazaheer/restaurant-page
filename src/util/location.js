@@ -15,13 +15,6 @@ export function createLocationPage() {
   detail.className = "info";
   detail.innerText = `Find us`;
 
-  const rights = document.createElement("p");
-  const italics = document.createElement("em");
-
-  italics.innerText = "extra";
-
   content.appendChild(heading);
   content.appendChild(detail);
-  content.appendChild(rights);
-  rights.appendChild(italics);
 }
