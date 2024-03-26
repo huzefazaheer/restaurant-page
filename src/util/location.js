@@ -1,20 +1,19 @@
-import { clear } from "./clearpage";
+import { clear } from './clearpage'
 
 export function createLocationPage() {
-  clear();
+	clear()
 
-  const content = document.getElementById("content");
+	const content = document.getElementById('content')
 
-  const heading = document.createElement("h1");
+	const heading = document.createElement('h1')
 
-  heading.id = "content";
-  heading.innerText = "Our location";
+	heading.innerText = 'Our location'
 
-  const detail = document.createElement("p");
+	const detail = document.createElement('p')
 
-  detail.className = "info";
-  detail.innerText = `Find us`;
+	detail.className = 'info'
+	detail.innerText = `Find us`
 
-  content.appendChild(heading);
-  content.appendChild(detail);
+	content.appendChild(heading)
+	content.appendChild(detail)
 }

@@ -1,19 +1,18 @@
-import { clear } from "./clearpage";
+import { clear } from './clearpage'
 
 export function createHomePage() {
-  clear();
+	clear()
 
-  const content = document.getElementById("content");
+	const content = document.getElementById('content')
 
-  const heading = document.createElement("h1");
+	const heading = document.createElement('h1')
 
-  heading.id = "content";
-  heading.innerText = "Super Cool Steakhouse";
+	heading.innerText = 'Super Cool Steakhouse'
 
-  const detail = document.createElement("p");
+	const detail = document.createElement('p')
 
-  detail.className = "info";
-  detail.innerText = `Indulge in a culinary journey of unparalleled flavor at our esteemed
+	detail.className = 'info'
+	detail.innerText = `Indulge in a culinary journey of unparalleled flavor at our esteemed
 steakhouse. Nestled in the heart of Manchester, our restaurant invites
 you to savor the finest cuts of USDA Prime beef expertly prepared by our
 skilled chefs. As you step into our elegant dining space, a warm
@@ -31,15 +30,15 @@ flavor. From mouthwatering seafood options to decadent desserts, every
 dish is prepared with care and precision. Join us for an unforgettable
 dining experience where every bite is a celebration of flavor and every
 moment is savored in good company. Welcome to Super Cool Steakhouse,
-where extraordinary taste meets unparalleled hospitality.`;
+where extraordinary taste meets unparalleled hospitality.`
 
-  const rights = document.createElement("p");
-  const italics = document.createElement("em");
+	const rights = document.createElement('p')
+	const italics = document.createElement('em')
 
-  italics.innerText = "rights of admissions reserved";
+	italics.innerText = 'rights of admissions reserved'
 
-  content.appendChild(heading);
-  content.appendChild(detail);
-  content.appendChild(rights);
-  rights.appendChild(italics);
+	content.appendChild(heading)
+	content.appendChild(detail)
+	content.appendChild(rights)
+	rights.appendChild(italics)
 }
